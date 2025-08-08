@@ -19,7 +19,10 @@ jobs:
           version: 8.15.4
       - run: pnpm install --no-frozen-lockfile
       - run: pnpm run build
-      - uses: actions/upload-pages-artifact@v2
+
+      # ✅ 최신 버전 사용해야 오류 없음
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
