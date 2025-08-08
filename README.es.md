@@ -1,5 +1,5 @@
 <h1 align="center">
- SIYOUNG BLOG
+ Siyoung Kim BLOG
 </h1>
 
 <div align="center">
