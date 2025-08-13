@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	// site: 'https://blog-template-gray.vercel.app/', // Write here your website url
 	site: 'https://fjhfheife.github.io/', // Write here your website url
 	author: 'Siyoung KIM', // Site author
-	title: 'Siyoung Blog', // Site title.
+	title: "Kim's Blog", // Site title.
 	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', // Description to display in the meta tags
 	lang: 'en-GB',
 	ogLocale: 'en_GB',
