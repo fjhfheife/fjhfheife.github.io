@@ -36,7 +36,9 @@
 	"dependencies": {
 		"@astrojs/rss": "4.0.1",
 		"astro": "4.0.8",
-		"astro-font": "^0.0.72"
+		"astro-font": "^0.0.72",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
 	},
 	"devDependencies": {
 		"@astrojs/mdx": "2.0.3",
@@ -70,5 +72,9 @@
 			"prettier --write --plugin-search-dir=."
 		]
 	},
-	"packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+	"packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748",
+	"resolutions": {
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	}
 }
